@@ -1,6 +1,6 @@
 # Neural Networks Built From Scratch
 This repository holds code that uses Numpy to build neural networks and perform backpropagation.
 
-FFNN.ipynb builds a feed forward neural network from scratch.  It includes a section in which I build a model with one hidden layer and tests it on the MNIST dataset.  It acheives and accuracy of 95% by using 30 hidden units, an alpha of 0.1, a batchsize of 20, and 10 epochs of training.
-
 The folder "custom_neural_network_architectures" contains my final project from the Harvard Extension course CS-181 Machine Learning.  I built different customized neural network architectures and different training schemes.  I then tested and compared their performances in multi-class classification tasks.  In the first set of tests, each output class was assigned its own network, and that network was trained to detect just that class.  The trained networks were then combined in a parallel fashion to form the base of a larger network, and an additional dense layer was added on top.  This larger network was then trained to detect all classes.  In the second set of tests, each input feature was assigned its own networks, and that network was trained to perform the classification using only the individual feature.  The trained networks were then combined in a parallel fashion, and a dense layer was added on top.  The resulting network was then trained to perform the classification.
+
+The folder "ffnn_from_scratch" contains code for building a feed forward neural network from scratch.  It includes a section in which I build a model with one hidden layer and tests it on the MNIST dataset.  It acheives and accuracy of 95% by using 30 hidden units, an alpha of 0.1, a batchsize of 20, and 10 epochs of training.
